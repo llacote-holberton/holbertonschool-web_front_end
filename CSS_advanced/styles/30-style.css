@@ -288,7 +288,11 @@ a:active {
 .card-work .card-title a::after {
   position: absolute;
   /* Shorthand equivalent to specifying positions left/top/right/bottom */
-  inset: 0;
+  /* inset: 0; possibly "too modern" XD */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   content: '';
 }
 
