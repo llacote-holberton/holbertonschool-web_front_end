@@ -191,7 +191,7 @@ a:active {
 }
 
 .card-testimonial .card-avatar {
-  radius: 50%;
+  border-radius: 50%;
   width: 10rem;
   height: 10rem;
 }
