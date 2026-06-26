@@ -188,7 +188,7 @@ a:active {
 
 /* :: denotes a "virtual element" while ":" denotes "an element state" */
 .nav .nav-link::before {
-  content: empty;
+  content: ''; /* WARNING: "empty" is not a valid value for that property! */
   position: absolute;
   /* TOP means "distance from the top" so ~= "vertical position " */
   /* Same logic with "LEFT" for "horizontal positioning" */
