@@ -39,6 +39,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   --section-header-padding: 0 0 3rem;
   /* Section Tagline related variables */
   --section-tagline-transform: uppercase;
+  --section-tagline-margin: 0;
   /* Section Title related variables */
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
@@ -171,6 +172,7 @@ a:active {
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
+  margin: var(--section-tagline-margin);
 }
 
 .container {
@@ -180,6 +182,34 @@ a:active {
 
 }
 
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+  padding: 0.5rem;
+}
+
+.col-1-2 {
+  width: 50%;
+  float: left;
+  padding: 0.5rem;
+}
+
+ul.row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .footer {
   padding: var(--footer-padding);
+}
+
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+
+.footer ul {
+  text-align: right;
 }
